@@ -25,20 +25,20 @@
                     <xs:element type="xs:string" name="clock"/>
                     <xs:element type="xs:string" name="cache"/>
                   </xs:sequence>
-                  <xs:attribute type="xs:byte" name="threads" use="optional"/>
+                  <xs:attribute type="xs:byte" name="threads" use="required"/>
                 </xs:complexType>
               </xs:element>
               <xs:element name="storage">
                 <xs:complexType>
-                  <xs:sequence>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
                     <xs:element type="xs:string" name="cache"/>
                     <xs:element type="xs:string" name="main"/>
                     <xs:element type="xs:string" name="harddrive"/>
-                  </xs:sequence>
+                  </xs:choice>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute type="xs:float" name="screensize" use="required"/>
+            <xs:attribute type="xs:float" name="screensize" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
