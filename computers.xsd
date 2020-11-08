@@ -1,0 +1,47 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="computers">
+    <xs:annotation>
+      <xs:documentation>Document created by: alvihabib, cse445f20 with XmlGrid Online XML Editor, http://xmlgrid.net</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="computer" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="brand"/>
+              <xs:element type="xs:string" name="model"/>
+              <xs:element type="xs:short" name="year"/>
+              <xs:element name="processor">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="architecture">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="model"/>
+                          <xs:element type="xs:byte" name="generation"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="clock"/>
+                    <xs:element type="xs:string" name="cache"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="threads" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="storage">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="cache"/>
+                    <xs:element type="xs:string" name="main"/>
+                    <xs:element type="xs:string" name="harddrive"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:float" name="screensize" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
