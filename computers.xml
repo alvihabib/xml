@@ -17,6 +17,7 @@
                <storage>
                      <cache>0.5gb</cache>
                      <main>128gb</main>
+                     <cache>512mb</cache>
                      <harddrive>1tb</harddrive>
                </storage>
          </computer>
@@ -34,6 +35,7 @@
                </processor>
                <storage>
                      <cache>1.5gb</cache>
+                     <cache>512mb</cache>
                      <main>256gb</main>
                      <harddrive>2tb</harddrive>
                </storage>
@@ -52,6 +54,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>32gb</main>
                      <harddrive>0.5tb</harddrive>
                </storage>
@@ -70,6 +73,7 @@
                </processor>
                <storage>
                      <cache>1.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>2tb</harddrive>
                </storage>
@@ -88,6 +92,7 @@
                </processor>
                <storage>
                      <cache>1.5gb</cache>
+                     <cache>512mb</cache>
                      <main>256gb</main>
                      <harddrive>2tb</harddrive>
                </storage>
@@ -106,6 +111,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>1tb</harddrive>
                </storage>
@@ -124,6 +130,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>256gb</main>
                      <harddrive>1tb</harddrive>
                </storage>
@@ -142,6 +149,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>2tb</harddrive>
                </storage>
@@ -160,6 +168,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>1tb</harddrive>
                </storage>
@@ -178,6 +187,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>1tb</harddrive>
                </storage>
@@ -196,6 +206,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>1tb</harddrive>
                </storage>
@@ -214,6 +225,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>1tb</harddrive>
                </storage>
@@ -232,6 +244,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>256gb</main>
                      <harddrive>2tb</harddrive>
                </storage>
@@ -250,6 +263,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>256gb</main>
                      <harddrive>2tb</harddrive>
                </storage>
@@ -268,6 +282,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>1tb</harddrive>
                </storage>
@@ -286,6 +301,7 @@
                </processor>
                <storage>
                      <cache>1.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>2tb</harddrive>
                </storage>
@@ -304,6 +320,7 @@
                </processor>
                <storage>
                      <cache>1.5gb</cache>
+                     <cache>512mb</cache>
                      <main>256gb</main>
                      <harddrive>2tb</harddrive>
                </storage>
@@ -322,6 +339,7 @@
                </processor>
                <storage>
                      <cache>1.5gb</cache>
+                     <cache>512mb</cache>
                      <main>256gb</main>
                      <harddrive>4tb</harddrive>
                </storage>
@@ -340,6 +358,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>1tb</harddrive>
                </storage>
@@ -358,6 +377,7 @@
                </processor>
                <storage>
                      <cache>0.5gb</cache>
+                     <cache>512mb</cache>
                      <main>128gb</main>
                      <harddrive>0.25tb</harddrive>
                </storage>
