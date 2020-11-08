@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Document created by: alvihabib, cse445f20 with XmlGrid Online XML Editor, http://xmlgrid.net -->
-   <computers xmlns="https://www.w3schools.com" 
-              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-              xsi:schemaLocation="https://raw.githubusercontent.com/alvihabib/xml/main/computers.xsd">
+   <computers>
          <computer screensize="14.1">
                <brand>dell</brand>
                <model>inspiron</model>
